@@ -21,12 +21,10 @@
     </properties>
 
     <repositories>
-        <!-- Paper API -->
         <repository>
             <id>papermc</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
-        <!-- Vault -->
         <repository>
             <id>jitpack</id>
             <url>https://jitpack.io</url>
@@ -34,15 +32,12 @@
     </repositories>
 
     <dependencies>
-        <!-- Paper API 1.21.4 -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
             <version>1.21.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-
-        <!-- Vault API -->
         <dependency>
             <groupId>com.github.MilkBowl</groupId>
             <artifactId>VaultAPI</artifactId>
